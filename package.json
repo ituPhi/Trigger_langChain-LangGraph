@@ -1,0 +1,22 @@
+{
+  "name": "trigger-n-langs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "@langchain/community": "^0.3.45",
+    "@langchain/core": "^0.3.57",
+    "@langchain/langgraph": "^0.3.0",
+    "@langchain/langgraph-sdk": "^0.0.82",
+    "@langchain/openai": "^0.5.11",
+    "@trigger.dev/sdk": "^3.3.17",
+    "zod": "^3.25.51"
+  }
+}
