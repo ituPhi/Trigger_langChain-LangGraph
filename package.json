@@ -1,15 +1,17 @@
 {
   "name": "trigger-n-langs",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "",
+  "description": "This is a repo for running langchain/langgraph inside trigger",
+  "main": "",
+  "scripts": {},
+  "keywords": [
+    "langchain",
+    "trigger.dev",
+    "langgraph"
+  ],
+  "author": "Juan Iturbe",
   "license": "ISC",
-  "type": "commonjs",
+  "type": "module",
   "dependencies": {
     "@langchain/community": "^0.3.45",
     "@langchain/core": "^0.3.57",
