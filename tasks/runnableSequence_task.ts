@@ -4,6 +4,12 @@ import { RunnableSequence } from "@langchain/core/runnables";
 import { ChatOpenAI } from "@langchain/openai";
 import { StringOutputParser } from "@langchain/core/output_parsers";
 
+// Sequential Processing
+// The `RunnableSequence` example shows how to chain operations where each step depends on the previous one:
+// 1. Format prompt with user input
+// 2. Send to OpenAI model
+// 3. Parse response as string
+
 export const runnableSequence_task = task({
   id: "runnableSequence_task",
   maxDuration: 300, // Stop executing after 300 secs (5 mins) of compute

@@ -69,20 +69,6 @@ trigger-n-langs/
 └── README.md
 ```
 
-## Key Concepts Demonstrated
-
-### Sequential Processing
-The `RunnableSequence` example shows how to chain operations where each step depends on the previous one:
-1. Format prompt with user input
-2. Send to OpenAI model
-3. Parse response as string
-
-### Parallel Processing
-The `RunnableMap` example demonstrates concurrent execution of independent operations by LangChain:
-1. Generate joke about topic
-2. Generate poem about topic
-3. Return both results simultaneously inside the same trigger task
-
 ## Resources
 
 - [Trigger.dev Documentation](https://trigger.dev/docs)

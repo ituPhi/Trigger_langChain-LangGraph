@@ -3,6 +3,12 @@ import { PromptTemplate } from "@langchain/core/prompts";
 import { RunnableMap } from "@langchain/core/runnables";
 import { ChatOpenAI } from "@langchain/openai";
 
+// Parallel Processing In LangChain
+// The `RunnableMap` example demonstrates concurrent execution of independent operations by LangChain:
+// 1. Generate joke about topic
+// 2. Generate poem about topic
+// 3. Return both results simultaneously inside the same trigger task
+
 export const runnableMap_task = task({
   id: "runnableMap_task",
   maxDuration: 300,
