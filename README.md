@@ -27,6 +27,7 @@ Create a `.env` file in the root directory with the following variables:
 ```bash
 OPENAI_KEY=your_openai_api_key_here
 TRIGGER_PROJECT_ID=your_trigger_project_id
+TRIGGER_SECRET_KEY=your_trigger_secret_key
 ```
 
 ### 3. Start Trigger.dev Development Server
